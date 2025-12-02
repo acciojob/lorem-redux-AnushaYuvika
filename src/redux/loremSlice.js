@@ -14,7 +14,7 @@ const loremSlice = createSlice({
   name: "lorem",
   initialState: {
     content: [],
-    loading: false,
+    loading: true,
     error: null,
   },
   reducers: {},
