@@ -86,7 +86,7 @@ const LoremContent = () => {
               boxShadow: "1px 1px 5px rgba(0,0,0,0.1)",
             }}
           >
-            <h4 style={{ marginBottom: "5px", fontSize: "16px" }}>Title: {item.title}</h4>
+            <h4 className="title" style={{ marginBottom: "5px", fontSize: "16px" }}>Title: {item.title}</h4>
             <p style={{ fontSize: "13px", lineHeight: "1.3", margin: 0 }}><b>Body:</b> {item.body}</p>
           </li>
         ))}

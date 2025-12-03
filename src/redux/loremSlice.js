@@ -3,6 +3,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 export const fetchLorem = createAsyncThunk(
   "lorem/fetchLorem",
   async () => {
+    await new Promise((resolve) => setTimeout(resolve, 500));
     const res = await fetch("https://jsonplaceholder.typicode.com/posts");
     if (!res.ok) throw new Error("Failed to fetch data");
     const data = await res.json();
