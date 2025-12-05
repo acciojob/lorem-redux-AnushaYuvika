@@ -63,7 +63,7 @@ const LoremContent = () => {
   return (
     <div style={{ padding: "15px" }}>
       <h1 style={{ textAlign: "center", marginBottom: "20px" }}>A short Naration of Lorem Ipsum</h1>
-      <h4 style={{ textAlign: "center", marginBottom: "10px" }}>Below Contains A title and Body gotten froma random API, Please take your time to Review</h4>
+      <p style={{ textAlign: "center", marginBottom: "10px" }}>Below Contains A title and Body gotten froma random API, Please take your time to Review</p>
 
       <ul
         style={{
